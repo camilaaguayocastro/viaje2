@@ -1,0 +1,62 @@
+
+    .navbar {
+        background-color: #051B54;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    
+    }
+
+    
+    .navbar-brand {
+        color: white;
+    }
+    
+    .nav-link {
+        color: white;
+    }
+    
+    .button1 {
+        background-color: #FFFFFF33;
+        color: white;
+    
+    }
+    
+
+    .card {
+        width: 100%;
+        background-color: #62DAD3;
+        border: 1px solid #000;
+        border-radius: 15px;
+    
+        margin-top: 15px;
+    }
+    
+    .cardtext {
+        text-align: center;
+    }
+
+    
+    .card-body {
+        color: #051B54;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    .text-body-secondary {
+        color: blue !important;
+    }
+    
+    
+    .card-image {
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    
+    .buttons {
+        border: 1px solid #000;
+        border-radius: 15px;
+    }

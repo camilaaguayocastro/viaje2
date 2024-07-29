@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="prueba.css">
+    <title>AeroVia Express</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>AeroVia Express</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">AeroVia express</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                         <a class="nav-link dropdown-toggle" aria-current="page" href="#">Ofertas y destinos</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#">Mis viajes</a>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#">Centro de ayuda</a>
+                    </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Estado de vuelo</a>
+                </li>
+
+                </ul>
+
+            <button type="button1" class="btn btn-light">Inicio de Sesion</button>
+
+          </div>
+  
+        </div>
+  </nav>
+
+  <!--Foto-->
+
+  <div class="card mb-3 mt-6 col-12">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">¡Vacaciones de verano!</h5>
+          <p class="card-text">Vuela por chile y Sudamérica con hasta 40% de descuento</p>
+          <p class="card-text">Encuentra paquetes, hoteles, seguros y arriendfo de autos en AeroVia Express</p>
+          <p class="card-text1"><small class="text-body-secondary">Compra aqui</small></p>
+        </div>
+      </div>
+
+      <div class="col-md-4 card-image-container">
+        <img src="./assets/img/polynesia.jpg" class="img-fluid rounded-star card-image" alt="polynesia image">
+      </div>
+    </div>
+  </div>
+
+  <!--botones-->
+
+  <div class="buttons m-2 rounded-lg form">
+    <form class="p-3 mb-0 bg-white rounded-5 form">
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item">Vuelos</li>
+        <li class="list-group-item">Paquetes</li>
+        <li class="list-group-item">Hoteles</li>
+        <li class="list-group-item">Autos</li>
+        <li class="list-group-item">Seguros</li>
+        <li class="list-group-item">Upgrade</li>
+      </ul>
+
+
+      <div class="container-fluid mt-3 mb-3 form">
+        <div class="dropdown">
+          <a href="#" class="dropdown-toggle text-decoration-none m-3 estilos" id="miDropdown1"
+            data-bs-toggle="dropdown">Ida y Vuelta</a>
+          <ul class="dropdown-menu" aria-labelledby="miDropdown1">
+            <li><a class="dropdown-item" href="#">Solo Ida</a></li>
+          </ul>
+
+          <a href="#" class="dropdown-toggle text-decoration-none m-3 estilos" id="miDropdown2"
+            data-bs-toggle="dropdown">Economy</a>
+          <ul class="dropdown-menu" aria-labelledby="miDropdown2">
+            <li><a class="dropdown-item" href="#">Business</a></li>
+            <li><a class="dropdown-item" href="#">Premiunm Economy</a></li>
+            <li><a class="dropdown-item" href="#">Primera Clase</a></li>
+          </ul>
+
+          <a href="#" class="dropdown-toggle text-decoration-none m-3 estilos" id="miDropdown3"
+            data-bs-toggle="dropdown">1 Pasajero</a>
+          <ul class="dropdown-menu" aria-labelledby="miDropdown3">
+            <li><a class="dropdown-item" href="#">2 pasajeros</a></li>
+            <li><a class="dropdown-item" href="#">3 pasajeros</a></li>
+            <li><a class="dropdown-item" href="#">4 pasajeros</a></li>
+            <li><a class="dropdown-item" href="#">5 pasajeros</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="row m-0 form">
+        <div class="col estilos">
+          <input type="text" class="form-control" placeholder="Origen" aria-label="Origen">
+        </div>
+
+        <div class="col estilos">
+          <input type="text" class="form-control" placeholder="Destino" aria-label="">
+        </div>
+
+        <div class="col estilos">
+          <input type="text" class="form-control" placeholder="Fecha Ida" aria-label="Feha Ida" disabled>
+        </div>
+
+        <div class="col estilos">
+            <input type="date" class="form-control" aria-label="DataIda">
+          </div>
+
+          <div class="col estilos">
+            <input type="text" class="form-control" placeholder="Fecha Vuelta" aria-label="Fecha Vuelta" disabled>
+          </div>
+
+          <div class="col estilos">
+            <input type="date" class="form-control" aria-label="Dataregreso" disabled>
+          </div>
+
+          <div class="col estilos">
+            <button class="btn bg bg-danger">Buscar</button>
+
+          </div>
+       </div>
+      </div>
+    </form>
+
+
+</body>
+
+</html>
